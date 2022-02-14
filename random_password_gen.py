@@ -17,8 +17,6 @@ chars = args.chars
 converted_chars = int(chars)
 if converted_chars < 8:
     print('Password should be equal to/longer than 8 characters.')
-    # gen_nonsecure = input('Do you want to generate a less secure password? [y/n] : ')
-    # while '' in gen_nonsecure:
     while True:
         gen_nonsecure = input('Do you want to generate a less secure password? [y/n] : ')
         if gen_nonsecure == 'y' or gen_nonsecure == 'yes':
